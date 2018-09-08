@@ -1,0 +1,7 @@
+{
+  "zadanie1.py::test_czy_jest_pierwsza_dla_liczby_niepierwszej": true,
+  "zadanie1.py::test_czy_jest_pierwsza_dla_liczby_pierwszej": true,
+  "zadanie2_f.py::test_wiecej_niz_dla_pustego_napisu": true,
+  "zadanie3.py": true,
+  "zadanie4.py": true
+}

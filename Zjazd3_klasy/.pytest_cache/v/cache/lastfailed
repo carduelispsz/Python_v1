@@ -1,0 +1,6 @@
+{
+  "zadanie4_folder.py::test_basket_add_product_twice": true,
+  "zadanie4_folder.py::test_basket_add_two_products": true,
+  "zadanie4_folder.py::test_basket_count_total_price": true,
+  "zadanie4_folder.py::test_print_info": true
+}

@@ -1,0 +1,10 @@
+[
+  "zadanie4_folder.py::test_product_exist",
+  "zadanie4_folder.py::test_print_info",
+  "zadanie4_folder.py::test_basket_initialization",
+  "zadanie4_folder.py::test_basket_add_product",
+  "zadanie4_folder.py::test_basket_add_two_products",
+  "zadanie4_folder.py::test_basket_add_product_twice",
+  "zadanie4_folder.py::test_count_entry_price",
+  "zadanie4_folder.py::test_basket_count_total_price"
+]

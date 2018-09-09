@@ -2,7 +2,7 @@ class Product:
     def __init__(self, id, name, cena):
         self.id = id
         self.name = name
-        self.cena = cena
+        self.price = cena
 
     def print_info(self):
         return f'"{self.name}", id: {self.id}, cena: {self.price} PLN'
@@ -13,7 +13,7 @@ class BasketEntry:
         self.number = number
 
     def count_entry_price(self):
-        return self.product.cena * self.number #wyciagam self.product a z niego .cena
+        return self.product.price * self.number #wyciagam self.product a z niego .price
 
 
 class Basket:
@@ -41,7 +41,7 @@ def test_product_exist():
     product = Product(1, 'Woda', 10.99)
     assert product.id == 1
     assert product.name == 'Woda'
-    assert product.cena == 10.99
+    assert product.price == 10.99
 
 def test_print_info(capsys):
     product = Product(1, 'Woda', 10.99)

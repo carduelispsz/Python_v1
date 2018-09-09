@@ -1,4 +1,5 @@
 {
+  "zad7_folder.py::test_employee_of_the_month": true,
   "zadanie4_folder.py::test_basket_add_product_twice": true,
   "zadanie4_folder.py::test_basket_add_two_products": true,
   "zadanie4_folder.py::test_basket_count_total_price": true,

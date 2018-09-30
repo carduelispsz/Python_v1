@@ -1,0 +1,4 @@
+[
+  "test_matrices.py::test_adder",
+  "test_matrices.py::test_substr"
+]

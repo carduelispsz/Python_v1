@@ -18,6 +18,7 @@ def collect_emails(input_file):
     return(emails)
 
 def save_emails(emails, output_file):
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w') as f: #flaga 'w' otwiera plik do zapisu. Moze byc tez 'a' jako append
         for email in sorted(emails):
-            f.write(email)
+            f.write(email + '\n')
+
